@@ -1,0 +1,52 @@
+*{
+	margin:3px;
+	padding:5px;
+}
+
+header{
+	padding:20px;
+	height:80px;
+	background: rgb(34,193,195);
+	background-color: powderblue;
+}
+header a{
+	margin-left:20px;
+	font-size:25px;
+	color:indigo;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	text-decoration: none;
+	background-color: powderblue;
+  transition: background-color .5s;
+}
+header a:hover{
+	color:yellow;
+	background-color:black;
+}
+
+section{
+	height:550px;
+	
+}
+section form{
+  position : relative;
+  width  : 600px;
+  height : 500px;
+  margin : 10px;
+  padding: 1em;
+  box-sizing: border-box;
+  /* we create our grid */
+  display  : grid;
+  grid-gap : 20px;
+  grid-template-columns : repeat(2, 1fr);
+  grid-template-rows    : 3em 3em 3em 3em;    
+}
+footer{
+	height:80px;
+	background:black;
+}
+footer center h{	
+	font-size:25px;
+	font-color:white;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	
+}
